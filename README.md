@@ -298,14 +298,4 @@ This project follows a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md). By p
 
 Thank you for contributing to **Zenith Academy**! 🙌
 
----
-
-## ❤️ Contributors
-
-<a href="https://github.com/aayushbharti/Zenith-Academy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=aayushbharti/Zenith-Academy" />
-</a>
-
----
-
-<p align="center">Built with ❤️ by <a href="https://github.com/AayushBharti">Aayush Bharti</a></p>
+<p align="center">Built by <a href="https://github.com/loimtran">Trần Minh Lôi</a></p>
