@@ -323,8 +323,8 @@ importers:
         specifier: ^12.1.1
         version: 12.1.1(eslint@9.35.0(jiti@1.21.7))
       eslint-plugin-turbo:
-        specifier: ^2.5.6
-        version: 2.5.6(eslint@9.35.0(jiti@1.21.7))(turbo@2.5.6)
+        specifier: ^2.6.1
+        version: 2.6.1(eslint@9.35.0(jiti@1.21.7))(turbo@2.5.6)
       globals:
         specifier: ^15.15.0
         version: 15.15.0
@@ -1978,11 +1978,6 @@ packages:
     cpu: [s390x]
     os: [linux]
 
-  '@rollup/rollup-linux-x64-gnu@4.34.8':
-    resolution: {integrity: sha512-8y7ED8gjxITUltTUEJLQdgpbPh1sUQ0kMTmufRF/Ns5tI9TNMNlhWtmPKKHCU0SilX+3MJkZ0zERYYGIVBYHIA==}
-    cpu: [x64]
-    os: [linux]
-
   '@rollup/rollup-linux-x64-musl@4.34.8':
     resolution: {integrity: sha512-SCXcP0ZpGFIe7Ge+McxY5zKxiEI5ra+GT3QRxL0pMMtxPfpyLAKleZODi1zdRHkz5/BhueUrYtYVgubqe9JBNQ==}
     cpu: [x64]
@@ -3312,8 +3307,8 @@ packages:
     peerDependencies:
       eslint: '>=5.0.0'
 
-  eslint-plugin-turbo@2.5.6:
-    resolution: {integrity: sha512-KUDE23aP2JV8zbfZ4TeM1HpAXzMM/AYG/bJam7P4AalUxas8Pd/lS/6R3p4uX91qJcH1LwL4h0ED48nDe8KorQ==}
+  eslint-plugin-turbo@2.6.1:
+    resolution: {integrity: sha512-nxwJD6ReZTxEmq/ZNJXI/Mfa3aXctTpQpJrQZESDC1bxjXXcz4i040P7wG6RsRRsQ+9eYB9D+KdCqERpwNZGzw==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -7681,9 +7676,6 @@ snapshots:
   '@rollup/rollup-linux-s390x-gnu@4.34.8':
     optional: true
 
-  '@rollup/rollup-linux-x64-gnu@4.34.8':
-    optional: true
-
   '@rollup/rollup-linux-x64-musl@4.34.8':
     optional: true
 
@@ -9350,7 +9342,7 @@ snapshots:
     dependencies:
       eslint: 9.35.0(jiti@1.21.7)
 
-  eslint-plugin-turbo@2.5.6(eslint@9.35.0(jiti@1.21.7))(turbo@2.5.6):
+  eslint-plugin-turbo@2.6.1(eslint@9.35.0(jiti@1.21.7))(turbo@2.5.6):
     dependencies:
       dotenv: 16.0.3
       eslint: 9.35.0(jiti@1.21.7)
@@ -11227,7 +11219,6 @@ snapshots:
       '@rollup/rollup-linux-powerpc64le-gnu': 4.34.8
       '@rollup/rollup-linux-riscv64-gnu': 4.34.8
       '@rollup/rollup-linux-s390x-gnu': 4.34.8
-      '@rollup/rollup-linux-x64-gnu': 4.34.8
       '@rollup/rollup-linux-x64-musl': 4.34.8
       '@rollup/rollup-win32-arm64-msvc': 4.34.8
       '@rollup/rollup-win32-ia32-msvc': 4.34.8
